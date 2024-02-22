@@ -1,0 +1,4 @@
+<button (click)="startScan()">Start Scan</button>
+<button (click)="stopScan()">Stop Scan</button>
+<button *ngIf="!!scannedDocURL" (click)="openDocument()">scanned link</button>
+<div #qrReader id="camera" style="width: 500px; height: 500px;"></div>

@@ -1,0 +1,4 @@
+<div>
+    <input type="file" (change)="onFileSelected($event)" accept=".pdf" />
+    <div *ngIf="!!base64OfDocument">{{base64OfDocument}}</div>
+</div>
