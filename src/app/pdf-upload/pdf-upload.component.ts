@@ -25,6 +25,7 @@ export class PdfUploadComponent {
           // Now base64 contains the PDF file in Base64 format
           // You can use this string as per your requirement
           console.log(base64);
+          console.log('https://base64.guru/converter/decode/pdf');
           this.base64OfDocument = base64;
         };
 
